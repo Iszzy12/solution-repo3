@@ -1,0 +1,47 @@
+.changelog-container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: white;
+    text-align: center;
+  }
+  
+  .timeline {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #000;
+  }
+  
+  .timeline-event {
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-event::before {
+    content: "";
+    position: absolute;
+    left: -32px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: gray;
+  }
+  
